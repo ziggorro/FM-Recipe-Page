@@ -1,0 +1,159 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #555;
+  background-color: hsl(30, 54%, 90%);
+  overflow-x: hidden;
+}
+
+.recipe-page {
+  max-width: 120rem;
+  margin: 14rem auto;
+  padding: 6.4rem;
+  font-size: 2.4rem;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 30px;
+}
+
+.omelette-photo {
+  width: 100%;
+  border-radius: 20px;
+  margin-bottom: 3.2rem;
+}
+
+.heading-primary {
+  font-size: 6.4rem;
+  font-family: "Young Serif";
+  font-weight: 400;
+  letter-spacing: -0.5px;
+  margin-bottom: 3.2rem;
+  color: hsl(24, 5%, 18%);
+}
+
+.recipe-description {
+  letter-spacing: 1.1px;
+  margin-bottom: 4rem;
+}
+
+.prep-time {
+  padding: 3.2rem;
+  border-radius: 20px;
+  background-color: hsl(330, 100%, 96%);
+  margin-bottom: 3.2rem;
+}
+
+.prep-time h3 {
+  color: hsl(332, 51%, 32%);
+  font-weight: 700;
+  margin-bottom: 1.2rem;
+}
+
+.list {
+  margin-left: 4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.list li {
+  padding-left: 1.6rem;
+}
+
+.prep-time li::marker {
+  color: hsl(332, 51%, 32%);
+}
+
+.list span {
+  font-weight: 700;
+}
+
+.heading-secondary {
+  font-family: "Young Serif";
+  font-weight: 400;
+  color: hsl(14, 45%, 36%);
+  margin-bottom: 1.6rem;
+  font-size: 4.2rem;
+}
+
+.ingredients {
+  border-bottom: 3px solid hsl(30, 9%, 77%);
+  margin-bottom: 3.2rem;
+  padding-bottom: 4rem;
+}
+
+.ingredients-list li::marker {
+  color: hsl(14, 45%, 36%);
+}
+
+.instructions {
+  border-bottom: 3px solid hsl(30, 9%, 77%);
+  margin-bottom: 3.2rem;
+  padding-bottom: 4rem;
+}
+
+.instructions-list li {
+  line-height: 1.6;
+}
+
+.instructions-list li::marker {
+  font-weight: 600;
+  color: hsl(14, 45%, 36%);
+}
+
+.nutrition-description {
+  margin-bottom: 4rem;
+}
+
+.nutrition table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.nutrition table tr {
+  text-align: left;
+}
+
+.nutrition table tr:not(:last-child) {
+  border-bottom: 3px solid hsl(30, 9%, 77%);
+}
+
+.nutrition table th,
+.nutrition table td {
+  padding: 1.6rem 0;
+}
+
+.nutrition table th {
+  padding-left: 4.8rem;
+  width: 50%;
+  font-weight: 400;
+}
+
+.nutrition table td {
+  font-weight: 700;
+  color: hsl(14, 45%, 36%);
+}
+
+footer {
+  padding-bottom: 14rem;
+}
+
+.attribution {
+  font-size: 2.4rem;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
