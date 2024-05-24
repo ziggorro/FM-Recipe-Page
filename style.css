@@ -19,10 +19,10 @@ body {
 }
 
 .recipe-page {
-  max-width: 120rem;
-  margin: 14rem auto;
-  padding: 6.4rem;
-  font-size: 2.4rem;
+  max-width: 80rem;
+  margin: 6.4rem auto;
+  padding: 4rem;
+  font-size: 1.6rem;
   background-color: hsl(0, 0%, 100%);
   border-radius: 30px;
 }
@@ -30,38 +30,39 @@ body {
 .omelette-photo {
   width: 100%;
   border-radius: 20px;
-  margin-bottom: 3.2rem;
+  margin-bottom: 2rem;
 }
 
 .heading-primary {
-  font-size: 6.4rem;
+  font-size: 4rem;
   font-family: "Young Serif";
   font-weight: 400;
   letter-spacing: -0.5px;
-  margin-bottom: 3.2rem;
+  margin-bottom: 1rem;
   color: hsl(24, 5%, 18%);
 }
 
 .recipe-description {
-  letter-spacing: 1.1px;
-  margin-bottom: 4rem;
-}
-
-.prep-time {
-  padding: 3.2rem;
-  border-radius: 20px;
-  background-color: hsl(330, 100%, 96%);
+  letter-spacing: 0.7px;
   margin-bottom: 3.2rem;
 }
 
+.prep-time {
+  padding: 3rem;
+  border-radius: 20px;
+  background-color: hsl(330, 100%, 96%);
+  margin-bottom: 2rem;
+}
+
 .prep-time h3 {
-  color: hsl(332, 51%, 32%);
   font-weight: 700;
+  font-size: 2rem;
+  color: hsl(332, 51%, 32%);
   margin-bottom: 1.2rem;
 }
 
 .list {
-  margin-left: 4rem;
+  margin-left: 3rem;
   display: flex;
   flex-direction: column;
   gap: 1.2rem;
@@ -84,13 +85,13 @@ body {
   font-weight: 400;
   color: hsl(14, 45%, 36%);
   margin-bottom: 1.6rem;
-  font-size: 4.2rem;
+  font-size: 3rem;
 }
 
 .ingredients {
-  border-bottom: 3px solid hsl(30, 9%, 77%);
-  margin-bottom: 3.2rem;
-  padding-bottom: 4rem;
+  border-bottom: 0.15rem solid hsl(30, 9%, 77%);
+  padding-bottom: 3.2rem;
+  margin-bottom: 2rem;
 }
 
 .ingredients-list li::marker {
@@ -98,9 +99,9 @@ body {
 }
 
 .instructions {
-  border-bottom: 3px solid hsl(30, 9%, 77%);
-  margin-bottom: 3.2rem;
-  padding-bottom: 4rem;
+  border-bottom: 0.15rem solid hsl(30, 9%, 77%);
+  padding-bottom: 3.2rem;
+  margin-bottom: 2rem;
 }
 
 .instructions-list li {
@@ -113,7 +114,7 @@ body {
 }
 
 .nutrition-description {
-  margin-bottom: 4rem;
+  margin-bottom: 1rem;
 }
 
 .nutrition table {
@@ -126,12 +127,12 @@ body {
 }
 
 .nutrition table tr:not(:last-child) {
-  border-bottom: 3px solid hsl(30, 9%, 77%);
+  border-bottom: 0.15rem solid hsl(30, 9%, 77%);
 }
 
 .nutrition table th,
 .nutrition table td {
-  padding: 1.6rem 0;
+  padding: 1.2rem 0;
 }
 
 .nutrition table th {
@@ -146,11 +147,11 @@ body {
 }
 
 footer {
-  padding-bottom: 14rem;
+  padding-bottom: 6.4rem;
 }
 
 .attribution {
-  font-size: 2.4rem;
+  font-size: 1.6rem;
   text-align: center;
 }
 
